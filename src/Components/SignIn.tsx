@@ -28,12 +28,6 @@ const SignIn = () => {
         </div>
         <form>
           <div>
-            <label
-              className="font-body font-normal text-base/[18px text-lerndis-light-grey"
-              htmlFor="email"
-            >
-              E-mail address
-            </label>
             <input
               className="border border-solid border-black block w-full h-[48px] py-[14px] px-4 my-[6px] rounded-[5px] font-body"
               id="email"
@@ -43,7 +37,7 @@ const SignIn = () => {
           </div>
           <div>
             <label
-              className="font-body font-normal text-base/[18px text-lerndis-light-grey"
+              className="font-body font-normal text-base/[18px] text-lerndis-light-grey"
               htmlFor="password"
             >
               Password

@@ -1,9 +1,11 @@
-import SignIn from "./Components/SignIn";
+// import SignIn from "./Components/SignIn";
+import DashBoard from "./Components/Educators/Dashboard";
 
 const App = () => {
   return (
     <div>
-      <SignIn />
+      <DashBoard />
+      {/* <SignIn /> */}
     </div>
   );
 };
