@@ -11,6 +11,7 @@ export default {
         "lerndis-grey": "#F2F2F2",
         "lerndis-light-grey": "#333333",
         "lerndis-grey-600": "#666666",
+        "lerndis-light-grey2": "#666666",
         "lerndis-text-black": "#0A0A0A",
         "lerndis-blue": "#00A8E8",
       },
