@@ -3,7 +3,7 @@ import Profile from "../../assets/profile.svg";
 import Down from "../../assets/down.svg";
 import Rectangle from "../../assets/Rectangle.svg";
 
-const DashBoard = () => {
+const DesktopProfileBar = () => {
   return (
     <div>
       <section>
@@ -42,4 +42,4 @@ const DashBoard = () => {
   );
 };
 
-export default DashBoard;
+export default DesktopProfileBar;

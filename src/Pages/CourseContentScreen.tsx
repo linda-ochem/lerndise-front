@@ -2,6 +2,7 @@ import ButtonFull from "../Components/Buttons/ButtonFull";
 import ButtonHalf from "../Components/Buttons/ButtonHalf";
 import GenerateButton from "../Components/Buttons/GenerateButton";
 import LabelTextInput from "../Components/Forms/LabelTextInput";
+import DesktopProfileBar from "../Components/ProfileBars/DesktopProfileBar";
 import HeadingParagraphy from "../Components/Text/HeadingParagraphy";
 import DesktopLayout from "../Layouts/DesktopLayout";
 
@@ -9,7 +10,8 @@ const CourseContentScreen = () => {
   return (
     <DesktopLayout>
       <div>
-        <div className="border-b border-solid border-[#CCCCCC] h-[72px] mb-[32px]"></div>
+        {/* <div className="border-b border-solid border-[#CCCCCC] h-[72px] mb-[32px]"></div> */}
+        <DesktopProfileBar />
         <div className="ml-[24px] mr-[45px]">
           <HeadingParagraphy
             heading="Course Content"
