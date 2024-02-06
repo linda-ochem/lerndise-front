@@ -1,6 +1,6 @@
 import Teacher from "../assets/teacher.png";
 
-const SignIn = () => {
+const LoginScreen = () => {
   return (
     <div className="h-screen flex gap-x-[98px]">
       <div className="w-[732px] pt-5 bg-lerndis-black-pearl flex flex-col items-center justify-center">
@@ -67,4 +67,4 @@ const SignIn = () => {
   );
 };
 
-export default SignIn;
+export default LoginScreen;
