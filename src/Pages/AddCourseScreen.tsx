@@ -4,6 +4,7 @@ import InputFile from "../Components/Forms/InputFile";
 import LabelTextInput from "../Components/Forms/LabelTextInput";
 import HeadingParagraphy from "../Components/Text/HeadingParagraphy";
 import DesktopLayout from "../Layouts/DesktopLayout";
+import { Link } from "react-router-dom";
 
 const AddCourseScreen = () => {
   return (
@@ -29,7 +30,7 @@ const AddCourseScreen = () => {
             <div className="flex gap-x-6">
               <ButtonHalf>Save as draft</ButtonHalf>
               <ButtonHalf skin="lerndis-black-pearl" color="white">
-                Next
+                <Link to="/createContent">Next</Link>
               </ButtonHalf>
             </div>
           </Form>

@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import Teacher from "../assets/teacher.png";
 
 const LoginScreen = () => {
@@ -54,7 +55,7 @@ const LoginScreen = () => {
           </p>
         </form>
         <button className="w-full h-[56px] text-white font-bold font-body text-base/[20px] bg-lerndis-black-pearl mt-[5px] py-[18px] px-[10px] rounded-[40px] border border-solid border-black self-end">
-          Sign In
+          <Link to="/create">Sign In</Link>
         </button>
       </div>
     </div>

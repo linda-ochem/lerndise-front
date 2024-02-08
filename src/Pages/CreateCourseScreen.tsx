@@ -1,6 +1,7 @@
 import CreateCourseButton from "../Components/Buttons/CreateCourseButton";
 import CreateCourse from "../assets/CreateCourse.png";
 import DesktopLayout from "../Layouts/DesktopLayout";
+import { Link } from "react-router-dom";
 
 const CreateCourseScreen = () => {
   return (
@@ -14,7 +15,9 @@ const CreateCourseScreen = () => {
               Oluwatimilehin
             </p>
           </div>
-          <CreateCourseButton />
+          <CreateCourseButton>
+            <Link to="/add">Create Course</Link>
+          </CreateCourseButton>
         </div>
         <div className="mt-[80px] flex flex-col items-center">
           <div className="w-[500px] flex flex-col items-center">
@@ -25,7 +28,7 @@ const CreateCourseScreen = () => {
               before you, you have the power to fan that spark into a roaring
               flame. Click on the{" "}
               <span className="text-lerndis-blue font-semibold">
-                Create Course
+                <Link to="/add">Create Course</Link>
               </span>{" "}
               button to start.
             </p>

@@ -1,12 +1,10 @@
-// import LoginScreen from "./Pages/LoginScreen";
-// import CreateCourseScreen from "./Pages/CreateCourseScreen";
-// import AddCourseScreen from "./Pages/AddCourseScreen";
-import CourseContentScreen from "./Pages/CourseContentScreen";
+import LoginScreen from "./Pages/LoginScreen";
+
 
 const App = () => {
   return (
     <div>
-      <CourseContentScreen />
+       <LoginScreen />
     </div>
   );
 };
