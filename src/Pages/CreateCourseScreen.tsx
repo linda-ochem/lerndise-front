@@ -2,12 +2,13 @@ import CreateCourseButton from "../Components/Buttons/CreateCourseButton";
 import CreateCourse from "../assets/CreateCourse.png";
 import DesktopLayout from "../Layouts/DesktopLayout";
 import { Link } from "react-router-dom";
+import DesktopProfileBar from "../Components/ProfileBars/DesktopProfileBar";
 
 const CreateCourseScreen = () => {
   return (
     <DesktopLayout>
       <div className="font-body">
-        <div className="border-b border-solid border-[#CCCCCC] h-[72px] mb-[32px]"></div>
+        <DesktopProfileBar />
         <div className="border-b border-solid border-lerndis-grey ml-[24px] mr-[45px] pb-4 flex justify-between">
           <div>
             <h2 className="text-base text-lerndis-light-grey">Welcome,</h2>
@@ -15,9 +16,12 @@ const CreateCourseScreen = () => {
               Oluwatimilehin
             </p>
           </div>
+          <Link to="/add">
+
           <CreateCourseButton>
-            <Link to="/add">Create Course</Link>
+          Create Course
           </CreateCourseButton>
+          </Link>
         </div>
         <div className="mt-[80px] flex flex-col items-center">
           <div className="w-[500px] flex flex-col items-center">

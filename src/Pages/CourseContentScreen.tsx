@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import ButtonFull from "../Components/Buttons/ButtonFull";
 import ButtonHalf from "../Components/Buttons/ButtonHalf";
 import GenerateButton from "../Components/Buttons/GenerateButton";
@@ -10,7 +11,6 @@ const CourseContentScreen = () => {
   return (
     <DesktopLayout>
       <div>
-        {/* <div className="border-b border-solid border-[#CCCCCC] h-[72px] mb-[32px]"></div> */}
         <DesktopProfileBar />
         <div className="ml-[24px] mr-[45px]">
           <HeadingParagraphy
@@ -59,9 +59,11 @@ const CourseContentScreen = () => {
               <ButtonFull>Add New Outline</ButtonFull>
               <div className="flex gap-x-6">
                 <ButtonHalf>Save as draft</ButtonHalf>
-                <ButtonHalf skin="lerndis-black-pearl" color="white">
-                  Next
-                </ButtonHalf>
+                <Link className="w-1/2" to="/courseReview">
+                  <ButtonHalf skin="lerndis-black-pearl" color="white" width="full">
+                    Next
+                  </ButtonHalf>
+                </Link>
               </div>
             </div>
           </form>

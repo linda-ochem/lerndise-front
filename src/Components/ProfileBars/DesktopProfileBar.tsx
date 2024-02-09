@@ -7,7 +7,7 @@ const DesktopProfileBar = () => {
   return (
     <div>
       <section>
-        <div className="flex justify-center mt-4  w-screen">
+        <div className="flex justify-center mt-4  border-b border-solid border-[#CCCCCC] mb-[32px]">
           <div className="flex justify-between">
             <input
               className=" flex justify-center border border-solid outline-none border-lerndis-light-grey2 w-[318px] h-11 py-[14px] px-4 my-1.5 rounded-[48px]"

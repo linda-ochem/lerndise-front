@@ -43,8 +43,8 @@ const InputFile = ({label}: Props) => {
         />
       </div>
       {/* display selected files */}
-      {/* {!!selectedFile.length && (
-        <div className="p-4 mt-4 bg-violet-50 overflow-hidden text-ellipsis">
+      {!!selectedFile.length && (
+        <div className="mt-4 bg-violet-50 overflow-hidden text-ellipsis">
           <p>Selected Files:</p>
           {selectedFile.map((file, i) => {
             return (
@@ -52,7 +52,7 @@ const InputFile = ({label}: Props) => {
             )
           })}
         </div>
-      )} */}
+      )}
     </>
   );
 };
